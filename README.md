@@ -53,7 +53,7 @@ py final_project.py --run song1.txt
 
 ##### Creating Data
 
-This finds and creates all the data and puts it into a JSON file located in data/song_data.txt. This is already created and takes several hours to run because it scrapes about 6000 songs worth of data from Genius.com one by one, so I would recommend not running it since the data is already provided. This data is used for analysis and classification.
+This finds and creates all the data and puts it into a JSON file located in data/song_data.txt. This is already created and takes several hours to run because it scrapes about 6000 songs worth of data from Genius.com one by one, so I would recommend not running it since the data is already provided. This data is used for analysis and classification. The data is created by also using the data in data/billboard-master/billboard, which provides the title and artist of the Top 100 songs of each year between 1950 and 2015.
 ```
 py final_project.py --create-data
 ```
